@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var date=new Date();
+        var hour=date.getHours();
+        var minutes = date.getMinutes();
+        var seconds = date.getSeconds();
+        var str;
+        if(hour<4){
+            str='凌晨好！';
+        }else if(hour<6){
+            str='早上好！';
+        }else if(hour<11){
+            str='上午好！';
+        }else if(hour<13){
+            str='中午好！';
+        }else if(hour<16){
+            str='下午好！';
+        }else if(hour<20){
+            str='晚上好！';
+        }else{
+            str='太晚了，休息吧！';
+        }
+        document.write('现在是'+hour+':'+minutes+':'+seconds+'<br>'+str);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
