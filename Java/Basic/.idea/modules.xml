@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/10InnerClass/10InnerClass.iml" filepath="$PROJECT_DIR$/10InnerClass/10InnerClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Annotation/Annotation.iml" filepath="$PROJECT_DIR$/Annotation/Annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basic.iml" filepath="$PROJECT_DIR$/Basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Polymorphic/Polymorphic.iml" filepath="$PROJECT_DIR$/Polymorphic/Polymorphic.iml" />
+    </modules>
+  </component>
+</project>
